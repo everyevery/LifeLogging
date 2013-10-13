@@ -126,6 +126,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     # third-party app
     'rest_framework',
+    'south',
+    'djcelery',
     # my app
     'common',
 )
@@ -160,3 +162,6 @@ LOGGING = {
         },
     }
 }
+
+import djcelery
+djcelery.setup_loader()
