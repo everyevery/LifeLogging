@@ -18,8 +18,8 @@ const int HOME_SERVER_PORT = 8090;
 WiFiUDP udp;
 
 /* WIFI */
-char ssid[] = "lee24g";
-char pass[] = "pi31415926535";
+char ssid[] = "";
+char pass[] = "";
 int status = WL_IDLE_STATUS;
 byte mac[6] = {0, };
   
